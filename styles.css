@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    transform: scaleX(-1);
+    z-index: 0;
+    top: 0;
+}
+  
+video {
+    display: none; /* Hide the video element as we are using it only for processing */
+}
+
+/* Add any additional styling as needed for your application */
